@@ -17,7 +17,7 @@ const data = [
     image: IMG2,
     title: "Simple Clock",
     github: "https://github.com/anuragkrishna14/Simple-Clock",
-    demo: "#portfolio"
+    demo: "https://anuragkrishna14.github.io/Simple-Clock/"
   },
   {
     id: 3,
@@ -53,7 +53,7 @@ const Portfolio = () => {
                 <h3>{title}</h3>
                 <div className="portfolio__item-cta">
                   <a href={github} className="btn btn-primary" target="_blank" rel="noreferrer">Github</a>
-                  <a href={demo} className="btn btn-secondary" rel="noreferrer">Live Demo</a>
+                  <a href={demo} className="btn btn-secondary" target="_blank" rel="noreferrer">Live Demo</a>
                 </div>
               </article>
             )

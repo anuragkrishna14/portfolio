@@ -41,6 +41,9 @@
 .portfolio__item-cta .btn-secondary{
     visibility: hidden;
 }
+.portfolio__item:nth-child(2) .btn-secondary{
+    visibility: visible;
+}
 
 /* =================== MEDIA QUERIES (MEDIUM DEVICES) ===================*/
 @media screen and (max-width: 1024px) {

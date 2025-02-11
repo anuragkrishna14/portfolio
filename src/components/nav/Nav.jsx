@@ -13,7 +13,7 @@ const Nav = () => {
   useEffect(() => {
     const handleScroll = () => {
       const sections = [
-        { id: "/#", offset: 0 },
+        { id: "#", offset: 0 },
         { id: "#about", offset: document.querySelector("#about")?.offsetTop || 0 },
         { id: "#experience", offset: document.querySelector("#experience")?.offsetTop || 0 },
         { id: "#portfolio", offset: document.querySelector("#portfolio")?.offsetTop || 0 },
@@ -34,7 +34,7 @@ const Nav = () => {
   
   return (
     <nav>
-      <a href="/#" className={activeNav === "/#"? "active" : ""} onClick={()=>setActiveNav("/#")}><AiOutlineHome/></a>
+      <a href="#" className={activeNav === "#"? "active" : ""} onClick={()=>setActiveNav("#")}><AiOutlineHome/></a>
       <a href="#about" className={activeNav === "#about"? "active" : ""} onClick={()=>setActiveNav("#about")}><AiOutlineUser/></a>
       <a href="#experience" className={activeNav === "#experience"? "active" : ""} onClick={()=>setActiveNav("#experience")}><BiBook/></a>
       <a href="#portfolio" className={activeNav === "#portfolio"? "active" : ""} onClick={()=>setActiveNav("#portfolio")}><MdWorkOutline/></a>

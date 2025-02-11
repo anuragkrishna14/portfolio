@@ -8,7 +8,7 @@ import {BiMessageSquareDetail} from "react-icons/bi";
 
 const Nav = () => {
 
-  const [activeNav, setActiveNav] = useState("/#");
+  const [activeNav, setActiveNav] = useState("#");
   
   useEffect(() => {
     const handleScroll = () => {

@@ -10,6 +10,18 @@ header {
     height: 100%;
     position: relative;
 }
+.header__container span.wave{
+    display: inline-block;
+    rotate: -20deg;
+    animation: waving 1.8s linear infinite;
+}
+@keyframes waving{
+    0% { rotate: -20deg; }
+    25% { rotate: 0deg; }
+    50% { rotate: 20deg; }
+    75% { rotate: 0deg; }
+    100% { rotate: -20deg; }
+}
 
 /* ==================== CTA ==================== */
 .cta {

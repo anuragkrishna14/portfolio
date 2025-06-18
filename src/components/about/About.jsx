@@ -1,5 +1,5 @@
 import "./about.css";
-import ME from "../../assets/Anurag-about.jpg";
+import ME from "../../assets/codingImage.jpeg";
 import {FaAward} from "react-icons/fa";
 import {FiUsers} from "react-icons/fi";
 import {VscFolderLibrary} from "react-icons/vsc";

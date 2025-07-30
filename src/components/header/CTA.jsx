@@ -1,4 +1,4 @@
-import RESUME from "../../assets/AnuragKrishna-Resume.pdf";
+import RESUME from "../../assets/AnuragKrishnaResume.pdf";
 import { PiChatCircleDotsBold } from "react-icons/pi";
 
 const CTA = () => {
